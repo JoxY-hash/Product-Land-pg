@@ -28,3 +28,48 @@
     width: 300px;
     border: 0 0 0 20px;
   }
+  
+#nav-bar {
+    display: flex;
+    gap: 5rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-right: 5rem;
+  }
+  .nav-link:hover {
+    color: #4a90e2;
+  }
+  
+  /* Main Content Sections */
+  #pricing {
+    /* background-color: #f9f9f9; */
+    padding: 3rem 0;
+    margin-top: 7rem;
+  }
+  #pricing h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    height: self;
+    width: self;
+    display: inline;
+  }
+  input#email {
+    display: flex;
+    height: 29.2px;
+    width: 100%;
+    max-width: 365px;
+    font-size: 13.3333px;
+    border: 1px solid#767676;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 35rem;
+    /* padding-left: 10rem; */
+    transition: border-color 0.3s ease;
+  }
